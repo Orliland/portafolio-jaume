@@ -1,0 +1,17 @@
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(15px);
+}
+
+.header-content {
+  block-size: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  inline-size: 69px;
+  block-size: 19px;
+}
