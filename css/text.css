@@ -1,0 +1,5 @@
+.description {
+  max-inline-size: 450px;
+  color: var(--primary);
+  font: var(--body1);
+}

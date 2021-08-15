@@ -1,7 +1,11 @@
 @import "./header.css";
 @import "./menu.css";
 @import "./hero.css";
+@import "./connector.css";
+@import "./project.css";
 @import "./button.css";
+@import "./icons.css";
+@import "./text.css";
 @import "./wrapper.css";
 
 * {
@@ -19,6 +23,8 @@
   --headline5: bold 24px/39px var(--fontBase);
   --body1: 16px/26px var(--fontBase);
   --body2: 14px/23px var(--fontBase);
+  --body3: 24px/39px var(--fontBase);
+  --body4: 34px/55px var(--fontBase);
   --button: bold 14px/23px var(--fontBase);
   --caption: 12px/20px var(--fontBase);
 

@@ -30,18 +30,6 @@
   font: var(--headline5);
 }
 
-.hero-description {
-  max-inline-size: 450px;
-  color: var(--primary);
-  font: var(--body1);
-}
-
-.icons {
-  display: flex;
-  gap: 16px;
-  margin-block-end: 24px;
-}
-
 @media screen and (min-width: 768px) {
   .hero {
     flex-direction: row;

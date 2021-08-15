@@ -12,21 +12,6 @@
 
 .button.is-secondary {
   background-color: unset;
-  color: var(--primary);
-}
-
-.button-icon {
-  display: inline-block;
-  inline-size: 44px;
-  block-size: 44px;
-  padding-inline: 10px;
-  padding-block: 10px;
-  text-decoration: none;
-  background-color: var(--white);
   border: 2px solid var(--primary);
-}
-
-.button-icon img {
-  block-size: 100%;
-  inline-size: 100%;
+  color: var(--primary);
 }
