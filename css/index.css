@@ -25,7 +25,7 @@
   --body2: 14px/23px var(--fontBase);
   --body3: 24px/39px var(--fontBase);
   --body4: 34px/55px var(--fontBase);
-  --button: bold 14px/23px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
   --caption: 12px/20px var(--fontBase);
 
   --gradient: radial-gradient(

@@ -11,6 +11,7 @@
 }
 
 .button.is-secondary {
+  padding: 11px 24px;
   background-color: unset;
   border: 2px solid var(--primary);
   color: var(--primary);
