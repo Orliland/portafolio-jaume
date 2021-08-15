@@ -1,6 +1,7 @@
 .project {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-block: 40px;
 }
 
@@ -22,15 +23,8 @@
   padding-block: 40px;
 }
 
-.project-title {
-  padding-inline: 8px;
-  padding-block: 4px;
+.project-content .title {
   align-self: flex-start;
-  background-color: var(--primary);
-  box-shadow: -4px 4px 0px #ffffff;
-  color: var(--white);
-  font: var(--headline5);
-  text-decoration: none;
 }
 
 .project-buttons {
