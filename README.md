@@ -4,11 +4,11 @@
 
 # Portafolio Jaume
 
-¿Te gustaría mostrar crear tu portafolio profesional y conseguir el trabajo de tus sueños? Aquí encontrarás la manera correcta de hacerlo.
+Proyecto realizado para practicar conceptos de desarrollo web, practicas como responsive design y mobile first.
 
 ## Requerimientos
 
-Agrega el menú hamburguesa y coloca el **mailto** para que puedan contactarse contigo.
+Coloca el **mailto** para que puedan contactarse contigo.
 
 - Dominio custom
 - Mailto
@@ -16,7 +16,6 @@ Agrega el menú hamburguesa y coloca el **mailto** para que puedan contactarse c
 - Sube tu código a GitHub
 - Publica tu resultado
 - Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
-
 
 ## Desktop
 
@@ -29,7 +28,6 @@ Agrega el menú hamburguesa y coloca el **mailto** para que puedan contactarse c
 ## Disclaimer
 
 Todas son propuestas, el propósito de **/Proyectos** es brindarte el diseño, el límite de la creación lo dictan tus ganas de hacerlo realidad y tu skills del momento a la hora de codear.
-
 
 ## Créditos
 
