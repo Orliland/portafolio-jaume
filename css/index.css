@@ -4,6 +4,8 @@
 @import "./connector.css";
 @import "./project.css";
 @import "./testimony.css";
+@import "./contact.css";
+@import "./footer.css";
 @import "./button.css";
 @import "./icons.css";
 @import "./text.css";
@@ -17,6 +19,7 @@
 
 :root {
   --fontBase: "Poppins", sans-serif;
+  --logo: 900 24px/39px var(--fontBase);
   --headline1: bold 95px/154px var(--fontBase);
   --headline2: bold 59px/95px var(--fontBase);
   --headline3: bold 48px/78px var(--fontBase);
@@ -26,6 +29,7 @@
   --body2: 14px/23px var(--fontBase);
   --body3: 24px/39px var(--fontBase);
   --body4: 34px/55px var(--fontBase);
+  --body5: bold 16px/26px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/20px var(--fontBase);
 

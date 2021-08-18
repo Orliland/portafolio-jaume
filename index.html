@@ -8,7 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
@@ -17,7 +21,7 @@
     <header class="header">
       <div class="wrapper">
         <div class="header-content">
-          <img class="logo" src="./images/logo.png" alt="" />
+          <span class="logo">Logo</span>
           <nav class="menu">
             <ul>
               <li><a class="is-active" href="#hero">Hola</a></li>
@@ -25,7 +29,9 @@
               <li><a href="#contact">Hablemos</a></li>
             </ul>
           </nav>
-          <a href="/download" class="button">Currículum</a>
+          <a href="./pdf/Orlando-Verdin-Desarrollador-Web.pdf" class="button"
+            >Currículum</a
+          >
         </div>
       </div>
     </header>
@@ -44,7 +50,7 @@
             atraen a las personas.
           </p>
           <div class="icons">
-            <a href="tel:3111232606" class="button-icon">
+            <a href="tel:3110000000" class="button-icon">
               <img src="./icons/icon-phone.svg" alt="" />
             </a>
             <a href="mailto:hello@orli.land" class="button-icon">
@@ -57,7 +63,9 @@
               <img src="./icons/icon-twitter_squared.svg" alt="" />
             </a>
           </div>
-          <a class="button" href="/download">Descargar Currículum</a>
+          <a class="button" href="./pdf/Orlando-Verdin-Desarrollador-Web.pdf"
+            >Descargar Currículum</a
+          >
         </div>
       </section>
       <section class="connector">
@@ -74,29 +82,30 @@
             <img src="./images/project1.png" alt="" />
           </div>
           <div class="project-content">
-            <a href="#" class="title">leonidasesteban.com</a>
+            <h2 class="title">leonidasesteban.com</h2>
             <p class="description">
               Accede a más de 120 proyectos que te ayudarán a mejorar tus
               habilidades como desarrollador Front-End.
             </p>
             <div class="project-buttons">
-              <a href="https://github.com" class="button is-secondary"
+              <a href="https://github.com/Orliland" class="button is-secondary"
                 >Ver Código</a
               >
-              <a href="https://orliland.github.io" class="button"
+              <a href="https://github.com/Orliland" class="button"
                 >Ver Proyecto</a
               >
             </div>
           </div>
         </article>
         <article class="testimony">
-          <img class="profle" src="./images/profile1.png" alt="" />
+          <div class="corner"></div>
+          <img class="profile" src="./images/profile1.png" alt="" />
           <p class="declaration">
             "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
             desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
             meses ".
           </p>
-          <p class="autho">
+          <p class="author">
             LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
           </p>
         </article>
@@ -105,59 +114,129 @@
             <img src="./images/project2.png" alt="" />
           </div>
           <div class="project-content">
-            <a href="#" class="title">MARVOL</a>
+            <h2 class="title">MARVOL</h2>
             <p class="description">
               Es el sitio oficial de Marvol Entertainment. Explore películas,
               personajes, cómics, programas de televisión, videos y más
               oficiales de Marvol.
             </p>
             <div class="project-buttons">
-              <a href="https://github.com" class="button is-secondary"
+              <a href="https://github.com/Orliland" class="button is-secondary"
                 >Ver Código</a
               >
-              <a href="https://orliland.github.io" class="button"
+              <a href="https://github.com/Orliland" class="button"
                 >Ver Proyecto</a
               >
             </div>
           </div>
         </article>
         <article class="testimony">
-          <img class="profle" src="./images/profile2.png" alt="" />
+          <div class="corner"></div>
+          <img class="profile" src="./images/profile2.png" alt="" />
           <p class="declaration">
             "Jaume ha superado mis expectativas desde el diseño hasta el
             desarrollo".
           </p>
-          <p class="autho">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+          <p class="author">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
         </article>
         <article class="project">
           <div class="project-image">
             <img src="./images/project3.png" alt="" />
           </div>
           <div class="project-content">
-            <a href="#" class="title">NETNET</a>
+            <h2 class="title">NETNET</h2>
             <p class="description">
               Películas y series ilimitadas y mucho más. Disfruta donde quieras.
               Cancela cuando quieras.
             </p>
             <div class="project-buttons">
-              <a href="https://github.com" class="button is-secondary"
+              <a href="https://github.com/Orliland" class="button is-secondary"
                 >Ver Código</a
               >
-              <a href="https://orliland.github.io" class="button"
+              <a href="https://github.com/Orliland" class="button"
                 >Ver Proyecto</a
               >
             </div>
           </div>
         </article>
         <article class="testimony">
-          <img class="profle" src="./images/profile3.png" alt="" />
+          <div class="corner"></div>
+          <img class="profile" src="./images/profile3.png" alt="" />
           <p class="declaration">
             "Por primera vez en la historia de nuestra empresa, aparecimos en
             todas las plataformas en las que trabajamos".
           </p>
-          <p class="autho">MARCO CORTEZ / NETNET</p>
+          <p class="author">MARCO CORTEZ / NETNET</p>
         </article>
       </section>
+      <section id="contact" class="contact">
+        <div class="contact-header">
+          <h2 class="title">HABLEMOS</h2>
+          <p class="description">
+            Si está interesado en trabajar conmigo en su próximo proyecto, no
+            dude en ponerse en contacto conmigo.
+          </p>
+        </div>
+        <form action="">
+          <label class="label" for="name">
+            <span class="label-text"
+              >Nombre completo <span class="required">*</span></span
+            >
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Juan"
+              required
+            />
+          </label>
+          <label class="label" for="email">
+            <span class="label-text"
+              >Correo electronico <span class="required">*</span></span
+            >
+            <input
+              type="mail"
+              name="email"
+              id="email"
+              placeholder="Juan@gmail.com"
+              required
+            />
+          </label>
+          <label class="label" for="message">
+            <span class="label-text">Mensaje</span>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          </label>
+          <button class="button" type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <span class="logo">LOGO</span>
+        <div class="icons">
+          <a href="tel:3111232606" class="button-icon">
+            <img src="./icons/icon-phone.svg" alt="" />
+          </a>
+          <a href="mailto:hello@orli.land" class="button-icon">
+            <img src="./icons/icon-important_mail.svg" alt="" />
+          </a>
+          <a href="https://instagram.com/Orliland" class="button-icon">
+            <img src="./icons/icon-instagram.svg" alt="" />
+          </a>
+          <a href="https://twitter.com/Orliland" class="button-icon">
+            <img src="./icons/icon-twitter_squared.svg" alt="" />
+          </a>
+        </div>
+        <p class="footer-content">
+          <span class="about">
+            Hecho con &nbsp;<img
+              src="./icons/icon-heart_outline.svg"
+              alt=""
+            />&nbsp; por Jaume.&nbsp;
+          </span>
+          <span class="copyright"
+            >Copyright 2021 - Todos los derechos reservados.</span
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
